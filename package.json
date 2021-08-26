@@ -1,0 +1,28 @@
+{
+  "name": "template-vite-vue2-vuetify",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "material-design-icons": "^3.0.1",
+    "material-design-icons-iconfont": "^6.1.0",
+    "vite-plugin-components": "^0.13.2",
+    "vite-plugin-vue2": "^1.4.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.2",
+    "vuetify": "^2.5.8",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-vue": "7.16.0",
+    "sass": "1.32.13",
+    "vite": "^2.0.5",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
