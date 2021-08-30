@@ -16,6 +16,16 @@ module.exports = {
   plugins: [
     'vue',
   ],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@', './src'],
+        ],
+        extensions: ['.js', '.jsx', '.vue', '.json'],
+      },
+    },
+  },
   rules: {
     'import/extensions': ['error', 'always', {
       js: 'never',
