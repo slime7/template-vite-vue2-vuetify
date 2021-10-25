@@ -14,7 +14,7 @@
   "include": [
     "src/**/*.js",
     "src/**/*.jsx",
-    "src/**/*.vue",
+    "src/**/*.vue"
   ],
   "exclude": [
     "node_modules"

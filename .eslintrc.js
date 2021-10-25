@@ -44,7 +44,7 @@ module.exports = {
     }],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'max-len': ['error', { code: 120 }],
+    'max-len': 'off',
     'no-async-promise-executor': 'off',
   },
 };
