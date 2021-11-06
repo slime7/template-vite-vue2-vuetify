@@ -1,5 +1,5 @@
 import { createVuePlugin } from 'vite-plugin-vue2';
-import viteComonents, {
+import viteComponents, {
   VuetifyResolver,
 } from 'vite-plugin-components';
 import path from 'path';
@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     createVuePlugin(),
-    viteComonents({
+    viteComponents({
       customComponentResolvers: [
         VuetifyResolver(),
       ],
@@ -34,11 +34,10 @@ module.exports = {
   },
   css: {
     preprocessorOptions: {
-      scss: {
+      sass: {
         additionalData: [
-          '@import "./node_modules/vuetify/src/styles/styles.sass";', // original default variables from vuetify
           // vuetify variable overrides
-          // '@import "@/scss/variables.scss";',
+          '@import "@/assets/styles/variables"',
           '',
         ].join('\n'),
       },
